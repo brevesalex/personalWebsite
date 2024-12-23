@@ -29,6 +29,7 @@ nav a {
   background-color: orange;
   border-radius: 5px;
   transition: background-color 0.15s;
+  font-size: 1vw;
 }
 
 nav a:hover {
