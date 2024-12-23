@@ -1,116 +1,218 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alexander Breves - Mechanical Engineer</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body style="background-color:rgb(250, 249, 249)">
-    <header>
+    <title>Mechanical Engineer Portfolio</title>
+  </head>
+
+  <body>
+    <div class="background_coverage">
+      <script src="script.js"></script>
+      <div class="container">
         <h1>Alexander Breves</h1>
-        <p>Mechanical Engineer | San Francisco, CA | <a href="mailto:abreves@yahoo.com" style="text-decoration:none;color:white">abreves@yahoo.com</a></p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <section id="about">
-        <h2>About Me </h2>
-        <p>
-            Mechanical Engineer with 25+ years of diverse experience across automotive and aviation industries, specializing in ICE, EV, and propulsion systems.
-            Proficient in developing, testing, and validating complex systems with a deep understanding of engineering principles.
-            Adept at managing cross-functional teams, mentoring engineers, and driving innovative solutions.
-            Strong analytical skills with expertise in diagnostics, root-cause analysis, and data-driven decision-making.
-            
+        <p style="font-family:cursive; font-style: italic;">
+          "Driving Innovation in Automotive & Aviation | Specialist in ICE, EV, & Propulsion Systems | 25+ Years of Engineering Excellence"
         </p>
-    </section>
-    <section id="experience">
+    
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="#about" onclick="openPage('about')">About Me</a>
+          <a href="#experience" onclick="openPage('experience')">Experience</a>
+          <a href="#education" onclick="openPage('education')">Education</a>
+          <a href="#skills" onclick="openPage('skills')">Skills</a>
+          <a href="#contact" onclick="openPage('contact')">Contact</a>
+        </nav>
+        <div class="resumeLink">
+          <a href="/docs/Alexander Breves - Resume - Fall 2024_v3.pdf" download="Alexander Breves - Resume.pdf">
+            <img class="resume_img" src="/images/resume.png" alt="Alexander Breves Resume"></a>
+        </div>
+      </div>
+
+      <div class="profile">
+        <img src="images/alexPic.jpg" alt="Alexander Breves">
+        <div class="text">
+          <p>
+            <strong>Mechanical Engineer</strong> with 25+ years of diverse experience across automotive and aviation industries, specializing in ICE, EV, and propulsion systems. Proficient in developing, testing, and validating complex systems with a deep understanding of engineering principles. Adept at managing cross-functional teams, mentoring engineers, and driving innovative solutions. Strong analytical skills with expertise in diagnostics, root-cause analysis, and data-driven decision-making.
+          </p>
+        </div>
+      </div>
+
+
+
+      <div id="about" class="page">
+        <h2>About Me</h2>
+        <p>
+          I am a seasoned <strong>Mechanical Engineer</strong> with over 25 years of experience spanning the automotive and aviation industries. My expertise lies in developing, testing, and validating cutting-edge propulsion systems, including Internal Combustion Engines (ICE) and Electric Vehicles (EV), with a strong focus on performance, efficiency, and sustainability.  
+        </p>
+        <p>
+          Throughout my career, I have spearheaded cross-functional teams, mentored engineers, and led innovative projects that drive industry advancement. My deep technical knowledge is complemented by hands-on experience in diagnostics, root-cause analysis, and data-driven decision-making.  
+        </p>
+        <p>
+          I am proficient in a broad range of tools and methodologies, including advanced simulations, computational fluid dynamics (CFD), and mechanical design software. With a strong commitment to quality and precision, I have contributed to projects that meet rigorous safety and environmental standards.  
+        </p>
+        <p>
+          In addition to my technical skills, I am an advocate for continuous improvement and professional growth. I actively stay updated with emerging technologies such as renewable energy systems, autonomous vehicles, and next-generation materials.  
+        </p>
+        <p>
+          My career is driven by a passion for solving complex engineering challenges and delivering innovative solutions that have a meaningful impact on the world. I look forward to connecting with like-minded professionals and exploring opportunities to contribute to groundbreaking projects.  
+        </p>
+      </div>
+
+      <div id="experience" class="page">
         <h2>Experience</h2>
-        <h3><a href="http://www.wisk.aero" target="_blank" style="text-decoration:none;color:#004d99">Wisk Aero – Mountain View, CA</a></h3>
-        <h4>Staff Systems Test Engineer – Propulsion (Jan 2024 – Nov 2024)</h4>
         <ul>
-            <li>Designed, assembled, and commissioned test assets for Wisk Generation 6 Aircraft Systems Verification & Validation (V&V).</li>
-            <li>Led cross-functional teams in developing test requirements and troubleshooting.</li>
-            <li>Mentored new engineers in propulsion testing and certification processes.</li>
+          <li><strong>Wisk Aero – Mountain View, CA</strong>
+            <ul>
+              <li><strong>Staff Systems Test Engineer – Propulsion (Jan 2024 – Nov 2024):</strong></li>
+                <ul>
+                  <li>Designed, assembled, and commissioned test assets for Wisk Generation 6 Aircraft Systems Verification & Validation (V&V).</li>
+                  <li>Led cross-functional teams in developing test requirements and troubleshooting.</li>
+                  <li>Mentored new engineers in propulsion testing and certification processes.</li>
+                </ul>
+              <li><strong>Lead Systems Test Engineer – Propulsion (May 2023 – Dec 2023):</strong></li>
+                <ul>
+                  <li>Directed system and subsystem verification for hybrid aircraft powertrain systems, including Iron Bird and thrust stand setups.</li>
+                  <li>Developed and operated National Instruments hardware and software (LabVIEW, VeriStand).</li>
+                  <li>Established powertrain testing labs, achieving full operational capacity from ground zero.</li>
+                </ul>
+            </ul>
+          </li>
+          <p></p>
+          <li><strong>Archer Aviation – San Jose, CA</strong>
+            <ul>
+              <li><strong>Motor Build & Powertrain Testing Labs Leader (Feb 2022 – Apr 2023):</strong></li>
+                <ul>
+                  <li>Designed and commissioned motor build and powertrain testing labs.</li>
+                  <li>Led test planning for performance, mechanical/electrical validation, and HALT testing.</li>
+                  <li>Conducted detailed data analysis for performance, NVH, and durability assessments.</li>
+                </ul>
+            </ul>
+          </li>
+          <p></p>
+          <li><strong>Lucid Motors – Newark, CA</strong>
+            <ul>
+              <li><strong>Drive Units Test & Validation Technical Specialist (Aug 2021 – Jan 2022):</strong></li>
+                <ul>
+                  <li>Led HALT and environmental testing for EV drive units.</li>
+                  <li>Developed test consoles using LabVIEW and VeriStand for powertrain setups.</li>
+                  <li>Redesigned test cells and procedures, enhancing test efficiency and accuracy.</li>
+                </ul>
+            </ul>
+          </li>
+          <p></p>
+          <li><strong>UAV Turbines – Miami, FL</strong>
+            <ul>
+              <li><strong>Senior Test Engineer (May 2020 – Oct 2021):</strong></li>
+                <ul>
+                  <li>Enhanced test data recording, processing, and reporting systems.</li>
+                  <li>Led NVH studies, instrumentation, calibration, and post-processing.</li>
+                  <li>Authored and maintained test documentation, improving procedural clarity.</li>
+                </ul>
+            </ul>
+          </li>
+          <p></p>
+          <li><strong>FCA North America (Chrysler Technical Center) – Detroit, MI</strong>
+            <ul>
+              <li><strong>Powertrain Advanced Engine Engineer (Jan 2019 – Aug 2021):</strong></li>
+                <ul>
+                  <li>Designed base engine components and systems for advanced fuel-efficient engines.</li>
+                  <li>Supported dynamometer and bench testing, facilitating project handoff to production.</li>
+                </ul>
+              <li><strong>Core Engine Mechanical Development Test Engineer (Aug 2015 – Dec 2018):</strong></li>
+                <ul>
+                  <li>Worked on I4, V6, V8 platforms and PHEV technologies, focusing on DFMEA and DVP&R.</li>
+                </ul>
+              <li><strong>Powertrain CAE Engineer (May 2015 – Aug 2015):</strong></li>
+                <ul>
+                  <li>Led virtual analysis for powertrain material model development and validation.</li>
+                </ul>
+              <li><strong>Dynamometer Test Management Engineer (Nov 2013 – May 2015):</strong></li>
+                <ul>
+                  <li>Managed engine, transmission, and catalytic converter testing for powertrain systems.</li>
+                </ul>
+            </ul>
+          </li>
         </ul>
-        <h4>Lead Systems Test Engineer – Propulsion (May 2023 – Dec 2023)</h4>
-        <ul>
-            <li>Directed system and subsystem verification for hybrid aircraft powertrain systems, including Iron Bird and thrust stand setups.</li>
-            <li>Developed and operated National Instruments hardware and software (LabVIEW, VeriStand).</li>
-            <li>Established powertrain testing labs, achieving full operational capacity from ground zero.</li>
-        </ul>
-        <h3><a href="http://www.archer.com" target="_blank" style="text-decoration:none;color:#004d99">Archer Aviation – San Jose, CA</a></h3>
-        <h4>Motor Build & Powertrain Testing Labs Leader (Feb 2022 – Apr 2023)</h4>
-        <ul>
-            <li>Designed and commissioned motor build and powertrain testing labs.</li>
-            <li>Led test planning for performance, mechanical/electrical validation, and HALT testing.</li>
-            <li>Conducted detailed data analysis for performance, NVH, and durability assessments.</li>
-        </ul>
-        <h3><a href="http://www.lucidmotors.com" target="_blank" style="text-decoration:none;color:#004d99">Lucid Motors – Newark, CA</a></h3>
-        <h4>Drive Units Test & Validation Technical Specialist (Aug 2021 – Jan 2022)</h4>
-        <ul>
-            <li>Led HALT and environmental testing for EV drive units.</li>
-            <li>Developed test consoles using LabVIEW and VeriStand for powertrain setups.</li>
-            <li>Redesigned test cells and procedures, enhancing test efficiency and accuracy.</li>
-        </ul>
-        <h3><a href="http://www.uavturbines.com" target="_blank" style="text-decoration:none;color:#004d99">UAV Turbines – Miami, FL</a></h3>
-        <h4>Senior Test Engineer (May 2020 – Oct 2021)</h4>
-        <ul>
-            <li>Enhanced test data recording, processing, and reporting systems.</li>
-            <li>Led NVH studies, instrumentation, calibration, and post-processing.</li>
-            <li>Authored and maintained test documentation, improving procedural clarity.</li>
-        </ul>
-        <h3><a href="http://www.stellantis.com" target="_blank" style="text-decoration:none;color:#004d99">FCA North America (Chrysler Technical Center) – Detroit, MI</a></h3>
-        <h4>Powertrain Advanced Engine Engineer (Jan 2019 – Aug 2021)</h4>
-        <ul>
-            <li>Designed base engine components and systems for advanced fuel-efficient engines.</li>
-            <li>Supported dynamometer and bench testing, facilitating project handoff to production.</li>
-        </ul>
-        <h4>Core Engine Mechanical Development Test Engineer (Aug 2015 – Dec 2018)</h4>
-        <ul>
-            <li>Worked on I4, V6, V8 platforms and PHEV technologies, focusing on DFMEA and DVP&R</li>
-        </ul>
-        <h4>Powertrain CAE Engineer (May 2015 – Aug 2015)</h4>
-        <ul>
-            <li>Led virtual analysis for powertrain material model development and validation</li>
-        </ul>
-        <h4>Dynamometer Test Management Engineer (Nov 2013 – May 2015)</h4>
-        <ul>
-            <li>Managed engine, transmission, and catalytic converter testing for powertrain systems</li>
-        </ul>
-        <!-- Add more roles as needed -->
-    </section>
-    <section id="education">
+      </div>
+
+      <div id="education" class="page">
         <h2>Education</h2>
         <ul>
-            <li>Ph.D. in Mechanical Engineering (ABD) – <a href="http://www.oakland.edu" target="_blank" style="text-decoration:none;color:#000203">Oakland University, Rochester Hills, MI (2016 – 2025)</a></li>
-            <li>M.S. in Mechanical Engineering – <a href="http://www.ufl.edu" target="_blank" style="text-decoration:none;color:#000203">University of Florida, Gainesville, FL (2005 – 2007)</a></li>
-            <li>B.S. in Mechanical Engineering – <a href="http://www.fau.edu" target="_blank" style="text-decoration:none;color:#000203">Florida Atlantic University, Boca Raton, FL (2000 – 2004)</a></li>
+          <li><strong>Ph.D. in Mechanical Engineering (ABD)</strong>  
+            <ul>
+              <li>Oakland University, Rochester Hills, MI (2016 – 2025)</li>
+            </ul>
+          </li>
+          <li><strong>M.S. in Mechanical Engineering</strong>  
+            <ul>
+              <li>University of Florida, Gainesville, FL (2005 – 2007)</li>
+            </ul>
+          </li>
+          <li><strong>B.S. in Mechanical Engineering</strong>  
+            <ul>
+              <li>Florida Atlantic University, Boca Raton, FL (2000 – 2004)</li>
+            </ul>
+          </li>
         </ul>
-    </section>
-    <section id="skills">
+      </div>
+
+      <div id="skills" class="page">
         <h2>Skills</h2>
         <ul>
-            <li>LabVIEW, VeriStand, ANSYS, SolidWorks, Siemens NX, AutoCAD, MATLAB, Simulink, Catia, Abaqus, DeweSoft, Python, C/C++, C#</li>
-            <li>Dynamometers, NVH Testing, Powertrain Calibration, Fluid Mechanics, Thermodynamics</li>
-            <li>GT-Power, CHEMKIN, Converge CFD, AVL Excite, nCode, Fluent</li>
-            <li>MS Office Suite, PLCs, Microcontrollers, Data Acquisition & Analysis, DFSS Black Belt Training</li>
+          <li><strong>Software and Programming:</strong>
+            <ul>
+              <li>Catia, Abaqus, ANSYS, SolidWorks, Siemens NX, AutoCAD</li>
+              <li>LabView, Veristand, Matlab, Simulink</li>
+              <li>HBM, DeweSoft</li>
+              <li>Python, C/C++, C#, HTML, CSS</li>
+              <li>Windows, Linux</li>
+            </ul>
+          </li>
+          <p></p>
+          <li><strong>Engineering Tools and Techniques:</strong>
+            <ul>
+              <li>Dynamometers, NVH Testing, Powertrain Calibration</li>
+              <li>Fluid Mechanics, Thermodynamics, Heat Transfer</li>
+              <li>GT-Power, CHEMKIN, Converge CFD, AVL Excite</li>
+              <li>nCode, Fluent, Data Acquisition & Analysis</li>
+            </ul>
+          </li>
+          <p></p>
+          <li><strong>Project Management and Analysis:</strong>
+            <ul>
+              <li>DFSS Black Belt Training</li>
+              <li>MS Office Suite (Excel, Word, PowerPoint, Project)</li>
+              <li>Agile/Scrum methodologies</li>
+              <li>Team collaboration tools (Jira, Confluence, Slack)</li>
+            </ul>
+          </li>
+          <p></p>
+          <li><strong>Hardware and Embedded Systems:</strong>
+            <ul>
+              <li>PLCs, Microcontrollers, Sensors</li>
+              <li>Testing and validation of embedded systems</li>
+            </ul>
+          </li>
         </ul>
-    </section>
-    <section id="contact">
+      </div>
+
+      <div id="contact" class="page">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:abreves@yahoo.com">abreves@yahoo.com</a></p>
-        <p>Phone: +1 (954) 325-2933</p>
-    </section>
-    <footer>
-        <p>© 2024 Alexander Breves. All Rights Reserved.</p>
-    </footer>
-</body>
+        <p style="line-height: 10px">Email: <a href="mailto:abreves@yahoo.com"
+           style="text-decoration:none;color: rgb(0, 0, 128)">
+                  abreves@yahoo.com</a>
+        </p>
+        <p style="line-height: 10px">Phone: +1(954)325-2933</p>
+      </div>
+
+      <footer>
+        <p>&copy; 2024 Alexander Breves. All rights reserved.</p>
+      </footer>
+
+    </div>
+  </body>
+
 </html>
