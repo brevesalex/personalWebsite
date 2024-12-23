@@ -58,7 +58,7 @@ nav a:hover {
 .profile .text {
   width: 65%;
   text-align: left;
-  font-size:18px, 1.5vw, 2.5vmin;
+  font-size: 1.30vmax;
   line-height: 27px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
