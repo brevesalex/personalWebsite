@@ -22,9 +22,10 @@ nav {
 
 nav a {
   color: rgb(1, 1, 105);
-  text-decoration: none;
+  text-decoration:none;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 1.5%;
+  vertical-align: middle;
   padding: 10px;
   background-color: orange;
   border-radius: 5px;
@@ -56,9 +57,9 @@ nav a:hover {
 }
 
 .profile .text {
-  width: 65%;
+  width: 75%;
   text-align: left;
-  font-size: 1.40vmax;
+  font-size: 1.4vmax;
   line-height: 27px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -86,6 +87,15 @@ nav a:hover {
   display: block;
 }
 
+.linkedin {
+  display: inline-block;
+  margin-left: 92%;
+}
+
+.linkedin-img {
+  width:25px;
+}
+
 footer {
   text-align: center;
   margin-top: 20px;
@@ -98,3 +108,4 @@ footer {
 .resume_img {
   width: 40px;
 }
+
