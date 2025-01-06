@@ -1,62 +1,62 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=550, user-scalable=yes, initial-scale=0.70, maximum-scale=10.0">
+  <link rel="stylesheet" href="styles/style.css">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Mechanical Engineer Portfolio</title>
+    <title>Alexander Breves - Profile</title>
   </head>
 
-  <body>
-    <div class="background_coverage">
-      <script src="script.js"></script>
-      <div class="container">
-        <h1>Alexander Breves</h1>
-        <p style="font-family:cursive; font-style: italic;">
-          "Driving Innovation in Automotive & Aviation | Specialist in ICE, EV, & Propulsion Systems | 25+ Years of Engineering Excellence"
-        </p>
-    
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="#about" onclick="openPage('about')">About Me</a>
-          <a href="#experience" onclick="openPage('experience')">Experience</a>
-          <a href="#education" onclick="openPage('education')">Education</a>
-          <a href="#skills" onclick="openPage('skills')">Skills</a>
-          <a href="#contact" onclick="openPage('contact')">Contact</a>
-        </nav>
-        <div class="resumeLink">
-          <a href="/docs/Alexander Breves - Resume - Fall 2024_v3.pdf" download="Alexander Breves - Resume.pdf">
-            <img class="resume_img" src="/images/resume.png" alt="Alexander Breves Resume"></a>
-        </div>
+  <body class="corpo">
+    <script src="scripts/script.js"></script>
+
+    <div class="centro">
+      <div class= "foto-profile">
+        <img src="images/alexPic.jpg">
       </div>
 
-      <div class="profile">
-        <img src="images/alexPic.jpg" alt="Alexander Breves">
-        <div class="text">
-          <p>
-            <strong>Mechanical Engineer</strong> with 25+ years of diverse experience across automotive and aviation industries, specializing in ICE, EV, and propulsion systems. Proficient in developing, testing, and validating complex systems with a deep understanding of engineering principles. Adept at managing cross-functional teams, mentoring engineers, and driving innovative solutions. Strong analytical skills with expertise in diagnostics, root-cause analysis, and data-driven decision-making.
-          </p>
-        </div>
+      <div class="texto-profile">
+        <strong>Mechanical Engineer</strong> with 25+ years of diverse experience across automotive and aviation industries, specializing in ICE, EV, and propulsion systems. Proficient in developing, testing, and validating complex systems with a deep understanding of engineering principles. Adept at managing cross-functional teams, mentoring engineers, and driving innovative solutions. Strong analytical skills with expertise in diagnostics, root-cause analysis, and data-driven decision-making.
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="nome">
+          Alexander Breves
       </div>
 
+      <div class="mensagem">          
+        "Driving Innovation in Automotive & Aviation | Specialist in ICE, EV, & Propulsion Systems | 25+ Years of Engineering Excellence"
+      </div>
+
+      <div class="botoes">
+      <button                     onclick="location.reload();">     home</button>
+      <button href="#about"       onclick="openPage('about')">      about me</button>
+      <button href="#experience"  onclick="openPage('experience')"> experience</button>
+      <button href="#education"   onclick="openPage('education')">  education</button>
+      <button href="#skills"      onclick="openPage('skills')">     skills</button>
+      <button href="#contact"     onclick="openPage('contact')">    contact</button>
+      </div>
+
+      <div class="resumeLink">
+        <a href="docs/Alexander Breves - Resume - Fall 2024_v3.pdf" download="Alexander Breves - Resume.pdf">
+          <img src="images/resume.png" alt="Alexander Breves Resume"></a>
+      </div>
+
+      <div class="linkedinLink">
+        <a href="https://www.linkedin.com/in/alexander-breves-80773b9/" target="_blank">
+          <img src="images/In.jpg" alt="LinkedIn Profile"></a>
+      </div>
+    </div>
+
+    <div class="buttons-links">
       <div id="about" class="page">
         <h2>About Me</h2>
-        <p>
-          I am a seasoned <strong>Mechanical Engineer</strong> with over 25 years of experience spanning the automotive and aviation industries. My expertise lies in developing, testing, and validating cutting-edge propulsion systems, including Internal Combustion Engines (ICE) and Electric Vehicles (EV), with a strong focus on performance, efficiency, and sustainability.  
-        </p>
-        <p>
-          Throughout my career, I have spearheaded cross-functional teams, mentored engineers, and led innovative projects that drive industry advancement. My deep technical knowledge is complemented by hands-on experience in diagnostics, root-cause analysis, and data-driven decision-making.  
-        </p>
-        <p>
-          I am proficient in a broad range of tools and methodologies, including advanced simulations, computational fluid dynamics (CFD), and mechanical design software. With a strong commitment to quality and precision, I have contributed to projects that meet rigorous safety and environmental standards.  
-        </p>
-        <p>
-          In addition to my technical skills, I am an advocate for continuous improvement and professional growth. I actively stay updated with emerging technologies such as renewable energy systems, autonomous vehicles, and next-generation materials.  
-        </p>
-        <p>
-          My career is driven by a passion for solving complex engineering challenges and delivering innovative solutions that have a meaningful impact on the world. I look forward to connecting with like-minded professionals and exploring opportunities to contribute to groundbreaking projects.  
-        </p>
+        <p>I am a seasoned <strong>Mechanical Engineer</strong> with over 25 years of experience spanning the automotive and aviation industries. My expertise lies in developing, testing, and validating cutting-edge propulsion systems, including Internal Combustion Engines (ICE) and Electric Vehicles (EV), with a strong focus on performance, efficiency, and sustainability.</p>
+        <p>Throughout my career, I have spearheaded cross-functional teams, mentored engineers, and led innovative projects that drive industry advancement. My deep technical knowledge is complemented by hands-on experience in diagnostics, root-cause analysis, and data-driven decision-making.</p>
+        <p>I am proficient in a broad range of tools and methodologies, including advanced simulations, computational fluid dynamics (CFD), and mechanical design software. With a strong commitment to quality and precision, I have contributed to projects that meet rigorous safety and environmental standards.</p>
+        <p>In addition to my technical skills, I am an advocate for continuous improvement and professional growth. I actively stay updated with emerging technologies such as renewable energy systems, autonomous vehicles, and next-generation materials.</p>
+        <p>My career is driven by a passion for solving complex engineering challenges and delivering innovative solutions that have a meaningful impact on the world. I look forward to connecting with like-minded professionals and exploring opportunities to contribute to groundbreaking projects.</p>
       </div>
 
       <div id="experience" class="page">
@@ -199,22 +199,18 @@
 
       <div id="contact" class="page">
         <h2>Contact</h2>
-        <p style="line-height: 10px">Email: <a href="mailto:abreves@yahoo.com"
-           style="text-decoration:none;color: rgb(0, 0, 128)">
-                  abreves@yahoo.com</a>
+        <p>
+          Email: <a href="mailto:abreves@yahoo.com">abreves@yahoo.com</a>
         </p>
-        <p style="line-height: 10px">Phone: +1(954)325-2933</p>
+        <p>
+          Phone: +1(954)325-2933
+        </p>
       </div>
-
-      <div class="linkedin">
-        <a href="https://www.linkedin.com/in/alexander-breves-80773b9/" target="_blank">
-          <img class="linkedin-img" src="images/In.jpg" alt="LinkedIn"></a>
-      </div>
-      <footer>
-        <p>&copy; 2024 Alexander Breves. All rights reserved.</p>
-      </footer>
-
     </div>
+        
+    <div class="footer">
+      Copyright &copy; 2025 Alexander Breves. All rights reserved.
+    </div>     
 
   </body>
 
