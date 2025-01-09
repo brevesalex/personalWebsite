@@ -1,0 +1,41 @@
+.educationContainer {
+  display: flex;
+  flex-direction: column;
+  width:350px;
+  margin: auto;
+  border: 1px none black;
+}
+
+.schoolContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px none black;
+}
+
+.mascottLogo {
+  flex: 1;
+  border: 1px none black;
+ 
+}
+
+.mascottLogo img {
+  width: 100px;
+}
+
+.schoolLogo {
+  flex: 10;
+  border: 1px none black;
+}
+
+.schoolLogo img {
+  width:20vmax;
+  float: right;
+}
+
+.degree {
+  font-size: 26px;
+  padding-top:5px;
+  padding-bottom: 50px;
+  text-align: center;
+}
