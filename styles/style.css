@@ -87,7 +87,9 @@
   font-family: cursive;
   padding-left: 2%;
   padding-right: 2%;
-  font-style: italic;}
+  font-style: italic;
+  font-size: 20px;
+}
 
 .header .botoes {
   padding-top: 20px;
