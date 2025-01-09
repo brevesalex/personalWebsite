@@ -6,6 +6,7 @@
   background-repeat: repeat-y;
   background-position: center top;
   background-attachment: fixed;
+
   padding-top: 250px;
   padding-left: 6%;
   padding-right: 6%;
@@ -21,7 +22,7 @@
   text-align: center;
   color: navy;
   border-top: 20px solid rgb(34, 31, 125);
-  border-bottom: 1px solid rgb(193, 193, 193);
+  border-bottom: 1px dotted rgb(214, 214, 214);
   border-bottom-style: groove;
   background-color: rgb(230, 230, 230);
   background-image: url("../images/fundo_lighten.jpg");
