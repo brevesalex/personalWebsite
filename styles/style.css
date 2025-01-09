@@ -24,6 +24,11 @@
   border-bottom: 1px solid rgb(193, 193, 193);
   border-bottom-style: groove;
   background-color: rgb(230, 230, 230);
+  background-image: url("../images/fundo_lighten.jpg");
+  background-size: 90%;
+  background-repeat: repeat-y;
+  background-position: center top;
+  background-attachment: fixed;
 }
 
 .header .resumeLink {
