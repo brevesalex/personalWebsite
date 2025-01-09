@@ -4,9 +4,11 @@ body {
 
 h2 {
 	border: 1px none black;
+	margin-top: 15px;
 	padding-left: 25px;
 	color:crimson;
-	font-size: 40px
+	font-size: 40px;
+	font-style: italic;
 }
 
 .container {
