@@ -28,8 +28,29 @@
 
 .header .resumeLink {
   position: absolute;
-  top: 10px;
-  right: 55px;  
+  top: 35px;
+  left: 10%;  
+}
+
+.header .resumeLink:hover + .hide {
+  display: inline-block;
+}
+
+.hide {
+  display: none;
+}
+
+.hide p {
+  background-color: black;
+  font-weight: bold;
+  color: yellow;
+  border-radius:2px;
+  font-size: 12px;
+  top:45px;
+  left: 12%;
+  position: absolute;
+  font-family: aptos;
+  padding: 3px 5px;
 }
 
 .header .resumeLink img{
@@ -38,8 +59,8 @@
 
 .header .linkedinLink {
   position: absolute;
-  top: 12px;
-  right: 15px;  
+  top: 37px;
+  right: 10%;  
 }
 
 .header .linkedinLink img{
@@ -52,6 +73,12 @@
   font-family: Roboto, Cambria, Cochin, Arial, Georgia, Times, 'Times New Roman', serif;
   border-style: none;
   padding-top: 20px;
+}
+
+@media (max-width: 700px){
+  .header .nome {
+    font-size: 30px;
+  }
 }
 
 .header .mensagem {
@@ -67,7 +94,7 @@
 }
 
 .header button {
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   background-color: orange;
   border-color: darkorange;
@@ -75,7 +102,7 @@
   border-width: 1px;
   border-radius: 5px;
   border-style: solid;
-  margin: 0 1%;
+  margin: 0 0.70%;
   padding: 0.5% 1.0%;
   cursor: pointer;
   box-shadow: 5px 5px 5px rgba(0,0,128,0.5);      
