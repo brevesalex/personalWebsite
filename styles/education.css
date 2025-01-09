@@ -46,3 +46,7 @@ h2 {
   margin-bottom: 50px;
   text-align: center;
 }
+
+#education {
+  background-image: url("../images/fundo_lighten.jpg");
+}
