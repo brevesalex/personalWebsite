@@ -3,38 +3,39 @@
   flex-direction: column;
   width:350px;
   margin: auto;
-  border: 1px none black;
+  border: 3px none navy;
 }
 
 .schoolContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 5px solid black;
+  border: 10px solid black;
   border-style: outset;
-  border-color: navy;
   padding: 10px;
-  background-color: rgb(190, 190, 190);
+  background-color: rgb(219, 219, 219);
 }
 
 .mascottLogo {
   flex: 1;
   border: 1px none black;
- 
+
 }
 
 .mascottLogo img {
-  width: 100px;
+  width: 90px;
 }
 
 .schoolLogo {
-  flex: 10;
+  flex: 2.5;
   border: 1px none black;
+
 }
 
 .schoolLogo img {
-  width:20vmax;
+  width: 200px;
   float: right;
+  
 }
 
 .degree {
