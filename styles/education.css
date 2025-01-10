@@ -10,7 +10,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 1px none black;
+  border: 5px solid black;
+  border-style: outset;
+  border-color: navy;
+  padding: 10px;
+  background-color: rgb(190, 190, 190);
 }
 
 .mascottLogo {
