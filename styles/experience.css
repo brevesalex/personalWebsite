@@ -89,3 +89,39 @@ h2 {
 			margin-left: -10px;
 			border: 1px none black;
 		}
+
+
+
+.container_shorts {
+	background-color: rgb(233, 233, 233);
+	display: flex;
+	flex-direction: column;
+	margin: 0 10% 50px 10%;
+	border: 1px dotted navy;
+	box-shadow: 5px 5px 20px;
+	padding: 25px;
+}
+
+.company_shorts {
+	background-color: transparent;
+	display: flex;
+	flex-direction: row;
+	height: 60px;
+	border: black;
+	border: 1px none navy;
+	margin-top: 20px;
+}
+
+.logo_shorts {
+	flex: 1;
+	height: 65px;
+	border: 1px none red;
+	align-content: center;
+	text-align: center;
+	
+}
+
+.logo_shorts img {
+	height: 100%;
+	border: 1px none black;
+}
